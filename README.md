@@ -60,19 +60,35 @@ This project was conducted in a controlled lab environment for educational purpo
 
 ---
 
-## Screenshots
-
 ### LLMNR Poisoning (Credential Capture)
 ![LLMNR](screenshots/llmnr.png)
+
+Captured NTLMv2 hash using Responder by exploiting LLMNR misconfiguration.
+
+---
 
 ### SMB Relay Attack
 ![SMB Relay](screenshots/smb-relay.png)
 
-### Remote Shell Access (SYSTEM)
+Relayed captured credentials to target machine and dumped SAM hashes.
+
+---
+
+### Gaining Shell Access
 ![Shell](screenshots/shell.png)
 
-### Credential Dumping using Mimikatz
+Obtained SYSTEM-level shell using Impacket tools.
+
+---
+
+### Credential Dumping (Mimikatz)
 ![Mimikatz](screenshots/mimikatz.png)
 
-### Golden Ticket Attack (Domain Compromise)
+Extracted plaintext credentials and NTLM hashes from memory.
+
+---
+
+### Golden Ticket Attack
 ![Golden Ticket](screenshots/golden-ticket.png)
+
+Created forged Kerberos ticket for persistent domain admin access.
