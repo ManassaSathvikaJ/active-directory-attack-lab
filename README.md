@@ -57,3 +57,22 @@ A single weak configuration in Active Directory can lead to full domain compromi
 ## Disclaimer
 
 This project was conducted in a controlled lab environment for educational purposes only.
+
+---
+
+## Screenshots
+
+### LLMNR Poisoning (Credential Capture)
+![LLMNR](screenshots/llmnr.png)
+
+### SMB Relay Attack
+![SMB Relay](screenshots/smb-relay.png)
+
+### Remote Shell Access (SYSTEM)
+![Shell](screenshots/shell.png)
+
+### Credential Dumping using Mimikatz
+![Mimikatz](screenshots/mimikatz.png)
+
+### Golden Ticket Attack (Domain Compromise)
+![Golden Ticket](screenshots/golden-ticket.png)
